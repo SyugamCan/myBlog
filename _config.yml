@@ -103,3 +103,22 @@ theme: yilia-plus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    data: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    update: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
